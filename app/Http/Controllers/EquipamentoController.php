@@ -14,7 +14,8 @@ class EquipamentoController extends Controller
      */
     public function index()
     {
-        return view('equipamentos', ['equipamentos' => Equipamento::all()]);
+        return view('equipamentos', ['equipamentos' 
+	=> Equipamento::all()]);
     }
 
     /**
